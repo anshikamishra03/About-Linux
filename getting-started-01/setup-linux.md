@@ -3,7 +3,9 @@ There are multiple ways to setup a Linux environment on a Windows or Mac machine
 
 ## Setup using windows
 Run the command 
+
 ```wsl -- install```
+
 Just install Docker desktop, run the below command and create linux container of any distribution without worrying about the cost and connectivity issues.
 
 ### Docker Command to Run Ubuntu Linux Container in windows host (Persistent & Long-Term)
