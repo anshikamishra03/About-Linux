@@ -8,45 +8,45 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 
 #### CPU and Memory Monitoring
 
-top – Real-time system monitoring
+1. top – Real-time system monitoring
 
-htop – Interactive process viewer (requires installation)
+2. htop – Interactive process viewer (requires installation)
 
-vmstat – Report system performance statistics
+3. vmstat – Report system performance statistics
 
-free -m – Show memory usage
+4. free -m – Show memory usage
 
 #### Disk Monitoring
 
-df -h – Check disk space usage
+1. df -h – Check disk space usage
 
-du -sh /path – Show disk usage of a specific directory
+2. du -sh /path – Show disk usage of a specific directory
 
-iostat – Display CPU and disk I/O statistics
+3. iostat – Display CPU and disk I/O statistics
 
 #### Network Monitoring
 
-ifconfig – Show network interfaces (deprecated, use ip a)
+1. ifconfig – Show network interfaces (deprecated, use ip a)
 
-ip a – Show network interface details
+2. ip a – Show network interface details
 
-netstat -tulnp – Show active connections and listening ports
+3. netstat -tulnp – Show active connections and listening ports
 
-ss -tulnp – Alternative to netstat for socket statistics
+4. ss -tulnp – Alternative to netstat for socket statistics
 
-ping hostname – Test network connectivity
+5. ping hostname – Test network connectivity
 
-traceroute hostname – Show network path to a host
+6. traceroute hostname – Show network path to a host
 
-nslookup domain – Get DNS resolution details
+7. nslookup domain – Get DNS resolution details
 
 #### Log Monitoring
 
-tail -f /var/log/syslog – Live monitoring of system logs
+1. tail -f /var/log/syslog – Live monitoring of system logs
 
-journalctl -f – Live system logs for systemd-based distros
+2. journalctl -f – Live system logs for systemd-based distros
 
-dmesg | tail – View kernel logs
+3. dmesg | tail – View kernel logs
 
 #### CPU and Memory Monitoring
 
